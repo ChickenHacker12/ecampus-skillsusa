@@ -1,0 +1,66 @@
+/* Bootstrap v4.6 CSS overrides */
+/* Bootstrap is licensed under the MIT license */
+
+:root {
+  --green: #6ca144;
+  --blue: #2b3e96;
+  --white: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, pre, p, small {
+  font-family: "Noto Serif", serif;
+  word-wrap: break-word;
+}
+
+.link {
+
+}
+
+.green {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.green-txt {
+  color: var(--green);
+}
+
+.blue-txt {
+  color: var(--blue);
+}
+
+.white-txt {
+  color: var(--white);
+}
+
+.merriweather-txt {
+  font-family: "Merriweather", serif;
+}
+
+.hero-img {
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mid-hero-img {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero-2 {
+  background-image: url("imgs/hero_2_new_students.png");
+  background-color: #000;
+}
+
+#hero-3 {
+  background-image: url("imgs/hero_3.png");
+  background-color: #000;
+}
+
+
+.m-neg-15 {
+  margin-left: -15px;
+  margin-right: -15px;
+}
